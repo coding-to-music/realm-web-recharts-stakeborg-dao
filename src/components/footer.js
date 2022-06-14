@@ -12,11 +12,11 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import GitInfo from "react-git-info/macro";
+// import GitInfo from "react-git-info/macro";
 import githublogo from "./../github-logo.png";
 
 function Footer() {
-  const gitInfo = GitInfo();
+  // const gitInfo = GitInfo();
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Box
@@ -44,7 +44,7 @@ function Footer() {
                 src={githublogo}
               ></Image>
             </a>
-            <Text fontSize="sm">build : {gitInfo.commit.hash.slice(-6)}</Text>
+            {/* <Text fontSize="sm">build : {gitInfo.commit.hash.slice(-6)}</Text> */}
           </Flex>
         </GridItem>
         <GridItem row="2" column="2">

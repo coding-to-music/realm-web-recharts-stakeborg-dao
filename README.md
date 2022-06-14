@@ -36,6 +36,13 @@ git remote add origin git@github.com:coding-to-music/realm-web-recharts-stakebor
 git push -u origin main
 ```
 
+### Needed to comment out this line
+
+```
+Error: /vercel/path0/src/components/footer.js: Command failed: git log --format=%D%n%h%n%H%n%cI%n%B -n 1 HEAD --
+fatal: not a git repository (or any of the parent directories): .git
+```
+
 # StakeborgDAO Explorer
 
 Available at https://explorer.stakeborgdao.xyz/#/

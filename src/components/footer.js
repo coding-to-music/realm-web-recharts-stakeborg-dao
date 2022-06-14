@@ -44,7 +44,7 @@ function Footer() {
                 src={githublogo}
               ></Image>
             </a>
-            <Text fontSize="sm">build : {gitInfo.commit.hash.slice(-6)}</Text>
+            {/* <Text fontSize="sm">build : {gitInfo.commit.hash.slice(-6)}</Text> */}
           </Flex>
         </GridItem>
         <GridItem row="2" column="2">

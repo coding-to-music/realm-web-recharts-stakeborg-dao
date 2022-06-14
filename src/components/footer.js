@@ -34,7 +34,7 @@ function Footer() {
         </GridItem>
         <GridItem row="2" column="1" alignSelf="end" justifySelf="start">
           <Flex>
-            <a href="https://github.com/andreivdev/stakeborgdaoexplorer">
+            <a href="https://github.com/coding-to-music/realm-web-recharts-stakeborg-dao">
               <Image
                 objectFit="contain"
                 boxSize="20px"
@@ -44,7 +44,7 @@ function Footer() {
                 src={githublogo}
               ></Image>
             </a>
-            {/* <Text fontSize="sm">build : {gitInfo.commit.hash.slice(-6)}</Text> */}
+            <Text fontSize="sm">build : {gitInfo.commit.hash.slice(-6)}</Text>
           </Flex>
         </GridItem>
         <GridItem row="2" column="2">

@@ -1,6 +1,8 @@
 {
     "config_version": 20210101,
+    "app_id": "realm-web-recharts-stakeborg-dao-dwvjq",
     "name": "realm-web-recharts-stakeborg-dao",
     "location": "US-VA",
-    "deployment_model": "GLOBAL"
+    "deployment_model": "GLOBAL",
+    "environment": "production"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "stakeborgdaoexplorer",
+  "name": "realm-web-recharts-stakeborg-dao",
   "homepage": "https://explorer.stakeborgdao.xyz",
   "version": "0.1.0",
   "private": true,
@@ -42,7 +42,11 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "ghdeploy": "gh-pages -d build",
+    "vercel": "npm run deploy && vercel --prod",
+    "mongohost": "npm run deploy && npm run build && cp -a ./build/ ./hosting/files && realm-cli push --remote=tasktracker-bmumi --include-hosting",
+    "deploy": "git add . && git commit -m Build && git push",
+    "deploy:backend": "npm run deploy && cd ./realm-backend && realm-cli push"
   },
   "eslintConfig": {
     "extends": [

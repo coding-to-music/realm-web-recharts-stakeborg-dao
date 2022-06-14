@@ -41,7 +41,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "oldpredeploy": "npm run build",
     "ghdeploy": "gh-pages -d build",
     "vercel": "npm run deploy && vercel --prod",
     "mongohost": "npm run deploy && npm run build && cp -a ./build/ ./hosting/files && realm-cli push --remote=tasktracker-bmumi --include-hosting",

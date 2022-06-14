@@ -15,7 +15,12 @@ https://explorer.stakeborgdao.xyz/#/
 ## Environment variables:
 
 ```java
-
+const APP_ID = process.env.REACT_APP_MORALIS_APP;
+const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER;
+const MASTER = process.env.REACT_APP_MORALIS_MASTER;
+new Web3.providers.HttpProvider(process.env.REACT_APP_AWS_NODE)
+const app = new Realm.App({ id: process.env.REACT_APP_REALM_APP_ID });
+const credentials = Realm.Credentials.apiKey(process.env.REACT_APP_REALM_KEY);
 ```
 
 ## GitHub
